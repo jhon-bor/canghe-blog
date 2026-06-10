@@ -3,13 +3,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-interface Post {
-  id: number;
-  title: string;
-  content: string;
-  slug: string;
-}
-
 export default function AdminPage() {
   const router = useRouter();
   const [form, setForm] = useState({ title: "", content: "", slug: "" });
