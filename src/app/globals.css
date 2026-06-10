@@ -1,49 +1,41 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
   }
 }
 
-html {
-  height: 100%;
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+@layer components {
+  .prose h1 { @apply text-3xl font-bold mt-10 mb-4; }
+  .prose h2 { @apply text-2xl font-semibold mt-8 mb-3 pb-2 border-b border-gray-100; }
+  .prose h3 { @apply text-xl font-semibold mt-6 mb-2; }
+  .prose p { @apply my-4 leading-relaxed; }
+  .prose ul { @apply list-disc pl-6 my-4 space-y-1; }
+  .prose ol { @apply list-decimal pl-6 my-4 space-y-1; }
+  .prose li { @apply leading-relaxed; }
+  .prose code { @apply bg-gray-100 text-pink-600 px-1.5 py-0.5 rounded text-sm font-mono; }
+  .prose pre { @apply bg-gray-900 text-gray-100 p-5 rounded-xl my-6 overflow-x-auto; }
+  .prose pre code { @apply bg-transparent text-gray-100 p-0; }
+  .prose table { @apply w-full border-collapse my-6; }
+  .prose th { @apply border border-gray-200 bg-gray-50 px-4 py-2 text-left font-semibold; }
+  .prose td { @apply border border-gray-200 px-4 py-2; }
+  .prose a { @apply text-primary-600 hover:text-primary-800 underline; }
+  .prose strong { @apply font-semibold text-gray-900; }
+  .prose blockquote { @apply border-l-4 border-primary-400 bg-primary-50 px-4 py-3 my-4 italic text-gray-700; }
+  .prose hr { @apply my-8 border-gray-200; }
 }
