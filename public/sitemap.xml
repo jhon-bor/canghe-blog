@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://smstop.top/</loc><lastmod>2026-06-10</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-<url><loc>https://smstop.top/archive</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-<url><loc>https://smstop.top/posts/welcome</loc><lastmod>2026-06-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://smstop.top/posts/ai-wechat-integration-guide</loc><lastmod>2026-06-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://smstop.top/posts/nextjs-15-features</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://smstop.top/posts/cloudflare-full-stack-guide</loc><lastmod>2026-06-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-<url><loc>https://smstop.top/posts/typescript-advanced-types</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://canghe-blog.pages.dev/</loc><lastmod>2026-06-10</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://canghe-blog.pages.dev/archive</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+<url><loc>https://canghe-blog.pages.dev/posts/welcome</loc><lastmod>2026-06-01</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://canghe-blog.pages.dev/posts/ai-wechat-integration-guide</loc><lastmod>2026-06-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://canghe-blog.pages.dev/posts/nextjs-15-features</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://canghe-blog.pages.dev/posts/cloudflare-full-stack-guide</loc><lastmod>2026-06-08</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://canghe-blog.pages.dev/posts/typescript-advanced-types</loc><lastmod>2026-06-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>

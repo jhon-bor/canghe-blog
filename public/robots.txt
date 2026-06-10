@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin
 
-Sitemap: https://smstop.top/sitemap.xml
+Sitemap: https://canghe-blog.pages.dev/sitemap.xml
