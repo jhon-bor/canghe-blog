@@ -16,16 +16,17 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-markdown": "^10.1.0",
-    "remark-gfm": "^4.0.1"
+    "remark-gfm": "^4.0.1",
+    "tencentcloud-sdk-nodejs-dnspod": "^4.1.213"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.16",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.7",
-    "next": "^15.5.2",
+    "eslint-config-next": "^16.2.9",
+    "next": "^16.2.9",
+    "playwright": "^1.60.0",
     "typescript": "^5",
     "wrangler": "^4.98.0"
   }

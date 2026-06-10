@@ -12,9 +12,11 @@ export const metadata: Metadata = {
     "分享技术、编程与生活。全栈开发、AI应用、Cloudflare部署实践。",
   keywords: ["博客", "技术", "编程", "全栈", "AI", "Next.js", "Cloudflare"],
   authors: [{ name: "苍何" }],
+  metadataBase: new URL("https://smstop.top"),
   openGraph: {
     title: "苍何的博客",
     description: "分享技术、编程与生活。全栈开发、AI应用实践。",
+    url: "https://smstop.top",
     type: "website",
     locale: "zh_CN",
     siteName: "苍何的博客",
